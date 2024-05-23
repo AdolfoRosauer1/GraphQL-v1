@@ -1,0 +1,24 @@
+{
+  "name": "graphql-v1",
+  "version": "1.0.0",
+  "description": "A GraphQL implementation",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "deploy": "serverless deploy",
+    "offline": "serverless offline"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "serverless": "^3.23.0",
+    "serverless-offline": "^13.6.0"
+  }
+}
